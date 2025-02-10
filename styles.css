@@ -1,0 +1,258 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#wrapper{
+    overflow-x: hidden;
+}
+
+#nav{
+    background-color: rgb(2,4,42,1);
+    display: flex;
+    justify-content: CENTER;
+    align-items: center;
+    gap: 1em;
+    padding: 0em 10em;
+}
+
+#nav img{
+    width: 10rem;
+    height: 5em;
+}
+
+#nav ul{
+    display: flex;
+    list-style-type: none;
+    color: white;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul,img,button:hover{
+    cursor: grab;
+}
+
+#container{
+    color: white;
+    background-color: rgb(2,4,42,1);
+    padding: 0em 13.6rem;
+    display: flex;
+    height: 100%;
+    position: relative;
+}
+
+#background{
+    position: absolute;
+    background-image: url("hero-illustration_background.jpg");
+    height:85%;
+    width:45%;
+    background-size: cover;
+    background-position: center;
+    right: 13.6rem;
+}
+
+#first{
+    margin-top: 10rem;
+    width: 25%;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    justify-content: center;
+}
+
+.divi{
+    height: 0.3em;
+    width: 2em;
+    background-color: aqua;
+}
+
+.grey{
+    color: grey;
+}
+
+.sign{
+    background-color: rgb(51, 143, 255);
+    color: white;
+    border-radius: 5px;
+    border: 2px solid  rgb(51, 143, 255);
+    padding: 1rem;
+    width: 10rem;
+    text-shadow: 1px black;
+    font-size: larger;
+}
+
+#container2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#container2 ul{
+    list-style-type:disc;
+}
+
+.abs{
+    position: absolute;
+}
+
+#square{
+    border:1px solid rgba(128, 128, 128, 0.244);
+    border-radius: 5px;
+    padding: 3rem;
+    background-image: url("payment-suite_2nd\ frame.png");
+    background-position: right;
+    background-size:500px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    z-index:3;
+}
+
+#square ul li{
+    margin-top:10px;
+}
+
+#container3{
+    margin-top: 2rem;
+    padding: 1em 18.3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    grid-gap: 1em; /* Space between items */
+    grid-template-rows: repeat(2, auto);
+}
+
+.bg{
+    border: 1px solid rgba(128, 128, 128, 0.250);
+    position: relative;
+    padding: 1em 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.bg img{
+    position: absolute;
+    top: 0;
+    right:0;
+    height: 3rem;
+    width: 3rem;
+    background-color:rgb(51, 143, 255);
+    border-radius: 50%;
+}
+
+#explore{
+    background-image: url("feature-section-2BG.svg");
+    height: 222%;
+    padding: 1em 15rem;
+}
+
+#square1{
+    border:1px solid rgba(128, 128, 128, 0.244);
+    border-radius: 5px;
+    padding: 6rem 4rem;
+    background-image: url("buisness-banking.png");
+    background-position: right;
+    background-size:500px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    z-index:3;
+}
+
+.flex{
+    display: flex;
+    align-items:  center;
+    gap: 1.5rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    grid-gap: 1em; /* Space between items */
+    margin-top: 4rem;
+}
+
+.p{
+    color: rgb(172, 172, 172);
+}
+
+#container3 h2{
+    font-size: medium;
+}
+
+#grid2{
+    padding: 1em 15rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,auto);
+    grid-gap: 2rem;
+}
+
+#grid2 div{
+    border: 1px solid rgba(169, 169, 169, 0.28);
+}
+
+#grid2 img{
+    position:absolute;
+}
+ 
+
+.flexbox{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 2rem;
+}
+
+#feature-core{
+    background-image: url("core-features-sectionBg.svg");
+    height: 150%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 1rem;
+    padding: 0rem 15rem;
+}
+
+#heading{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,auto);
+    grid-gap: 2rem;
+}
+
+#container4{
+    padding: 0rem 13.6rem;
+}
+
+#inner{
+    display: flex;
+}
+
+.scroll{
+    animation-name: scroll;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    height: 10%;
+    width: 40%;
+    padding-top: 0;
+}
+
+@keyframes scroll {
+    0% {}
+}
